@@ -54,7 +54,6 @@ export class AppComponent {
                 <li>Size large</li>
                 <li>Dismissed with default keyboard key (ESC)</li>
                 <li>Close wth button click</li>
-                <li>HTML content</li>
             </ul>`)
         .open();
   }
