@@ -7,10 +7,12 @@ import { ModalModule } from 'angular2-modal';
 import { BootstrapModalModule } from 'angular2-modal/plugins/bootstrap';
 
 import { AppComponent } from './app.component';
+import { MyTodoCompComponent } from './my-todo-comp/my-todo-comp.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyTodoCompComponent
   ],
   imports: [
     BrowserModule,
